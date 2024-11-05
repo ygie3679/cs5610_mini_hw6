@@ -1,0 +1,10 @@
+.cell {
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+.cell.clicked {
+    background-color: black;
+}
