@@ -9,7 +9,7 @@ function App() {
 
 	return (
 		<div className="parent-container">
-			<h2> Counter: {blackCount} </h2>
+			<h2> Count: {blackCount} </h2>
 			<div className="parent">
         <MyContext.Provider value={{blackCount, setCount}}>
           <Child ></Child>
